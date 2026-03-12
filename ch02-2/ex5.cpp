@@ -4,7 +4,6 @@
 // 작성자 : 2101091 최윤식
 // **********************************************
 
-// 1) char text[100] 을 활용한 버전
 #include <iostream>
 #include <cstring>
 using namespace std;
