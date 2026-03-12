@@ -34,6 +34,8 @@ extern ostream cout;  // 표준 출력 스트림 객체 선언
 
 > ※ Visual Studio에서 cout에 커서를 놓고 **F12(정의로 이동)** 를 누르면  
 > `<iostream>` 헤더파일에서 선언 위치를 확인할 수 있다.
+<img width="697" height="367" alt="image" src="https://github.com/user-attachments/assets/97ccc68f-ce63-405a-a6eb-7e9517b26a3c" />
+
 
 ---
 
