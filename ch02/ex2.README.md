@@ -17,4 +17,4 @@
 ## 실행 결과
 
 ```
-<img width="813" height="193" alt="스크린샷 2026-03-12 134145" src="https://github.com/user-attachments/assets/701e4bdd-256c-48c1-8feb-b210c2a33e68" />
+<img width="813" height="193" alt="스크린샷 2026-03-12 134145" src="https://github.com/user-attachments/assets/936a351b-332e-47f2-afcf-02603429a989" />
