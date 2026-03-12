@@ -24,6 +24,6 @@
 
 ## 실행 결과
 
-<img width="795" height="192" alt="image" src="https://github.com/user-attachments/assets/0830711f-ac68-400f-be64-d064c6553060" />
+<img width="795" height="192" alt="스크린샷 2026-03-12 162530" src="https://github.com/user-attachments/assets/4b6a31f3-e08b-43fb-bdbb-27fb7f9fa345" />
 
 
