@@ -35,8 +35,10 @@ return 0;
 ---
 ### 02번
 
-[소스파일]<img width="863" height="315" alt="스크린샷 2026-03-12 132330" src="https://github.com/user-attachments/assets/7405533b-27b6-427b-9c19-7d8d57d8cf34" />
+[소스파일]
+<img width="863" height="315" alt="스크린샷 2026-03-12 132330" src="https://github.com/user-attachments/assets/7405533b-27b6-427b-9c19-7d8d57d8cf34" />
 
 
-[목적,실행파일]<img width="844" height="361" alt="스크린샷 2026-03-12 132340" src="https://github.com/user-attachments/assets/c7ae3ea6-54dd-4d98-8d79-4109d2e478cb" />
+[목적,실행파일]
+<img width="844" height="361" alt="스크린샷 2026-03-12 132340" src="https://github.com/user-attachments/assets/c7ae3ea6-54dd-4d98-8d79-4109d2e478cb" />
 
