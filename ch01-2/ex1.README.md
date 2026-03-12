@@ -1,2 +1,40 @@
-<img width="499" height="229" alt="image" src="https://github.com/user-attachments/assets/1c52c7f8-4a19-468f-b264-54d72f29b1ec" />
+# 1장 실습과제 1-2 — IDE 조사
+
+---
+
+## 1. IDE란 무엇인가?
+
+**IDE(Integrated Development Environment, 통합개발환경)** 는  
+프로그램 개발에 필요한 에디터, 컴파일러, 링커, 디버거 등을 하나로 통합해 놓은 프로그램이다.
+
+각각의 도구를 따로 실행할 필요 없이 하나의 환경에서  
+편집 → 컴파일 → 실행 → 디버깅까지 모든 개발 과정을 수행할 수 있다.
+
+---
+
+## 2. IDE의 종류
+
+| IDE | 개발사 | 특징 |
+|-----|--------|------|
+| **Visual Studio** | Microsoft | C/C++/C# 등 지원, Windows 환경에서 주로 사용 |
+| **Visual Studio Code** | Microsoft | 경량 오픈소스 에디터, 다양한 언어 지원 |
+| **Eclipse** | Eclipse Foundation | Java 기반 오픈소스, Java/C++ 등 지원 |
+| **CLion** | JetBrains | C/C++ 전용 IDE |
+| **Dev-C++** | - | 윈도우용 경량 C/C++ IDE, 입문자에게 적합 |
+| **Code::Blocks** | - | 오픈소스 C/C++ IDE, 다양한 플랫폼 지원 |
+| **Xcode** | Apple | macOS/iOS 앱 개발 전용 |
+
+---
+
+## 3. IDE에 포함된 기능
+
+| 기능 | 설명 |
+|------|------|
+| **에디터 (Editor)** | 소스코드를 작성하는 기능. 문법 강조(Syntax Highlighting), 자동완성(IntelliSense), 자동 들여쓰기 등을 지원 |
+| **컴파일러 (Compiler)** | 작성한 소스파일을 기계어(목적파일)로 번역하는 기능 |
+| **링커 (Linker)** | 목적파일과 라이브러리를 연결하여 실행파일을 생성하는 기능 |
+| **디버거 (Debugger)** | 중단점(Breakpoint) 설정, 변수 값 확인, 단계별 실행 등 프로그램의 오류(버그)를 찾고 수정하는 기능 |
+| **프로젝트 관리** | 여러 소스파일을 하나의 프로젝트로 묶어 관리하는 기능 |
+| **버전 관리 연동** | Git 등 버전 관리 시스템과 연동하는 기능 |
+
 
