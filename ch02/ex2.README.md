@@ -2,23 +2,6 @@
 
 ---
 
-## 소스코드
-
-```cpp
-#include <iostream>
-using namespace std;
-
-int main() {
-    cout << "이름 : 홍길동" << endl;
-    cout << "주소 : 군산시 대학로 558" << endl;
-    cout << "학번 : 201012" << endl;
-    cout << "차종 : 벤츠" << endl;
-    return 0;
-}
-```
-
----
-
 ## 코드 설명
 
 | 라인 | 설명 |
@@ -34,8 +17,5 @@ int main() {
 ## 실행 결과
 
 ```
-이름 : 홍길동
-주소 : 군산시 대학로 558
-학번 : 201012
-차종 : 벤츠
+<img width="813" height="193" alt="스크린샷 2026-03-12 134145" src="https://github.com/user-attachments/assets/701e4bdd-256c-48c1-8feb-b210c2a33e68" />
 ```
