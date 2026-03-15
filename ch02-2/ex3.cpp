@@ -29,3 +29,29 @@ int main() {
 
     return 0;
 }
+
+// 다른 방법
+#include <iostream>
+using namespace std;
+
+int main() {
+	int number;
+	char name[100];
+	char address[100];
+
+	cout << "학번을 입력하시오: ";
+	cin >> number;
+	cin.ignore();
+
+	cout << "이름을 입력하세요: ";
+	cin.getline(name, sizeof(name), '\n');
+
+	cout << "주소를 입력하세요: ";
+	cin.getline(address, sizeof(address), '\n');
+	
+	cout << endl; // 단순 줄바꿈
+	cout << "1.학번: " << number << endl;
+	cout << "2.이름: " << name << endl;
+	cout << "3.주소: " << address << endl;
+	return 0;
+}
