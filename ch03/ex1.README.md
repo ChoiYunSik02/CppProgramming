@@ -43,7 +43,6 @@
 
 ### 실행 결과 (일반적인 64비트 환경 기준)
 
-```
 <img width="813" height="179" alt="Image" src="https://github.com/user-attachments/assets/5fff4278-395f-40ac-84c2-9e08e27cbdbf" />
 ```
 
