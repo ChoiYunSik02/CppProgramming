@@ -41,42 +41,6 @@
 
 ## 3. `sizeof(클래스명)`의 결과값과 설명
 
-### 예시 코드
-
-```cpp
-// **********************************************
-// 제 목 : sizeof(클래스명) 결과 출력 및 분석
-// 날 짜 : 2026년 03월 15일
-// 작성자 : 2101091 최윤식
-// **********************************************
-
-#include <iostream>
-using namespace std;
-
-class A {
-    // 멤버 없음
-};
-
-class B {
-    int x;        // 4 bytes
-    double y;     // 8 bytes
-};
-
-class C {
-    int x;        // 4 bytes
-    char c;       // 1 byte (+ 패딩 3 bytes)
-    double y;     // 8 bytes
-};
-
-int main() {
-    cout << "sizeof(A) = " << sizeof(A) << " bytes" << endl;
-    cout << "sizeof(B) = " << sizeof(B) << " bytes" << endl;
-    cout << "sizeof(C) = " << sizeof(C) << " bytes" << endl;
-
-    return 0;
-}
-```
-
 ### 실행 결과 (일반적인 64비트 환경 기준)
 
 ```
@@ -86,7 +50,6 @@ sizeof(C) = 16 bytes
 ```
 
 ### 결과 분석
-
 
 | 클래스 | 예상 크기 | 실제 크기 | 이유 |
 |--------|----------|----------|------|
