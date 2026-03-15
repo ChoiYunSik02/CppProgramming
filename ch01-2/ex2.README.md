@@ -42,4 +42,4 @@ return 0;
 ---
 [목적,실행파일]
 <img width="844" height="361" alt="스크린샷 2026-03-12 132340" src="https://github.com/user-attachments/assets/c7ae3ea6-54dd-4d98-8d79-4109d2e478cb" />
-
+<img width="856" height="236" alt="Image" src="https://github.com/user-attachments/assets/966be125-e77f-4b8d-a88c-3b894997cbbd" />
