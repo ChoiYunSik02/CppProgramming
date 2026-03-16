@@ -43,8 +43,7 @@
 
 ## 실행 결과
 <img width="805" height="162" alt="Image" src="https://github.com/user-attachments/assets/5023a9a6-79a7-4aad-8233-ba1118321ef1" />
-```
- 
+
 ---
  
 ## `sizeof(Triangle)` 결과값: **8 (바이트)**
