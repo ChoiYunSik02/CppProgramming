@@ -42,10 +42,7 @@
 ## 3. `sizeof(클래스명)`의 결과값과 설명
 
 ## 실행 결과
- 
-```
-삼각형의 면적은 28
-sizeof의 값은 8
+<img width="805" height="162" alt="Image" src="https://github.com/user-attachments/assets/5023a9a6-79a7-4aad-8233-ba1118321ef1" />
 ```
  
 ---
