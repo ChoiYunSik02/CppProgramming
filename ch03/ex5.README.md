@@ -148,17 +148,4 @@ int main() {
 ## 실행 결과
 <img width="799" height="165" alt="Image" src="https://github.com/user-attachments/assets/cb0d8761-2653-4140-a6f3-cd165f972ef0" />
 
----
 
-## 좌표 계산 시각화
-
-```
-(2, 10) ──────────── (7, 10)
-   │                     │
-   │   width=5            │
-   │   height=3           │
-   │                     │
-(2, 7)  ──────────── (7, 7)  ← 우측 하단
-```
-- 우측 하단 x = 2 + 5 = **7**
-- 우측 하단 y = 10 - 3 = **7**
