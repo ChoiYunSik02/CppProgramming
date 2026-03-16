@@ -4,43 +4,14 @@
 
 ## 1. 생성자를 통해 멤버변수를 초기화하는 이유
 
-### 초기화를 안 하면?
-
-```cpp
-class Rectangle {
-public:
-    int width;
-    int height;
-};
-
-int main() {
-    Rectangle rect;
-    cout << rect.width;  // 쓰레기값 출력! (예: 32767, -858993460 등)
-}
-```
+### 초기화를 안했을때
 
 객체를 생성했을 때 멤버변수에는 **이전 메모리에 남아있던 쓰레기값**이 들어있어요.
 이 상태로 면적을 계산하면 전혀 엉뚱한 결과가 나옵니다.
 
 ---
 
-### 생성자로 초기화하면?
-
-```cpp
-class Rectangle {
-public:
-    int width;
-    int height;
-    Rectangle() {
-        width = 0;
-        height = 0;
-    }
-};
-
-int main() {
-    Rectangle rect;  // 객체 생성과 동시에 width=0, height=0으로 초기화
-}
-```
+### 생성자로 초기화
 
 **생성자는 객체가 만들어지는 순간 자동으로 호출**되기 때문에,
 개발자가 따로 초기화 코드를 작성하지 않아도 안전하게 초기값이 설정돼요.
