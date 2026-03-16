@@ -138,12 +138,7 @@ Rectangle rect3(3, 5, 2, 4);   // x=3, y=5, width=2, height=4
 ---
 
 ## 🔷 실행 결과
-
-```
-사각형의 면적은 1
-사각형의 둘레길이는 4
-사각형의 우측하단의 좌표는 (5, 1)
-```
+<img width="802" height="178" alt="Image" src="https://github.com/user-attachments/assets/c4f5e9eb-f827-4b51-bcad-15490de1fbcd" />
 
 ### 계산 과정 정리
 
