@@ -134,6 +134,6 @@ int main() {
 ---
 
 ## 실행 결과
-<img width="799" height="165" alt="Image" src="https://github.com/user-attachments/assets/cb0d8761-2653-4140-a6f3-cd165f972ef0" />
+<img width="804" height="195" alt="Image" src="https://github.com/user-attachments/assets/fa554bf6-cd49-4a52-9c8b-2eda6a1820e8" />
 
 
