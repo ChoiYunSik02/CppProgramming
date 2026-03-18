@@ -53,4 +53,5 @@ int main() {
 	cout << "사각형의 면적은 " << rect1.getArea() << endl;
 	cout << "사각형의 둘레길이는 " << rect2.Perimeter() << endl;
 	cout << "사각형의 우측하단의 좌표는 " << "(" << rect3.CoordinateX() << ", " << rect3.CoordinateY() << ")" << endl;
+	return 0;
 }
