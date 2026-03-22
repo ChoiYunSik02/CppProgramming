@@ -115,12 +115,5 @@ int main() {
 ---
 
 ## 8. 실행 결과
+<img width="816" height="228" alt="image" src="https://github.com/user-attachments/assets/133b4046-8eed-414e-8442-009164f3bed0" />
 
-```
-밑변 1 높이 1 인 삼각형 생성
-삼각형의 면적은 0.5
-밑변 2 높이 4 인 삼각형 생성
-삼각형의 면적은 4
-밑변 2 높이 4 인 삼각형 소멸
-밑변 1 높이 1 인 삼각형 소멸
-```
