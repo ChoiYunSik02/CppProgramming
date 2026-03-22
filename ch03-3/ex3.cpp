@@ -33,7 +33,7 @@ Triangle globalTri1(4, 8); // 전역객체 생성
 Triangle globalTri2(2, 2); // 전역객체 생성
 
 int main() {
-	cout << "삼각형의 면적은 " << globalTri1.getArea() << endl; // 면적계싼
+	cout << "삼각형의 면적은 " << globalTri1.getArea() << endl; // 면적계산
 	cout << "삼각형의 면적은 " << globalTri2.getArea() << endl; // 면적계산 
 	return 0;
 }
