@@ -9,17 +9,17 @@ using namespace std;
 
 class Triangle {
 private:
-	int width;
-	int height;
+	int width; // 밑변
+	int height; // 높이
 public:
-	Triangle();
-	Triangle(int a, int b);
-	~Triangle();
-	void setWidth(int a);
-	void setHeight(int b);
-	int getWidth();
+	Triangle(); // 생성자 1
+	Triangle(int a, int b); // 생성자 2
+	~Triangle(); // 소멸자
+	void setWidth(int a); // 멤버 접근 함수 setter
+	void setHeight(int b); 
+	int getWidth(); // 멤버 접근 함수 getter
 	int getHeight();
-	double getArea();
+	double getArea(); // 삼각형 면적 계산 함수
 };
 
 Triangle::Triangle() : Triangle(1, 1) { } // 위임 생성자
