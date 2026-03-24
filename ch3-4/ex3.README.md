@@ -156,14 +156,8 @@ return 0;
 ---
 
 ## 실행 결과
+<img width="835" height="210" alt="스크린샷 2026-03-24 224610" src="https://github.com/user-attachments/assets/58fe1bee-b37c-4e0b-8f33-f46ad954819c" />
 
-```
-폭1, 높이1 삼각형 생성
-삼각형의 폭은 3
-삼각형의 높이는 5
-삼각형의 면적은 7.5
-폭3, 높이5 삼각형 소멸
-```
 
 ---
 
