@@ -9,7 +9,7 @@ using namespace std;
 
 class Circle {
 private:
-	int radius; // 수정된 코드
+	int radius; // 수정된 코드, private로 멤버 변수 보호
 public:
 	// int radius; // 기존 코드 
 	Circle();
