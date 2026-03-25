@@ -1,4 +1,4 @@
-# 실습과제3 - Triangle 클래스 구현 (private 멤버 변수, setter/getter, 소멸자)
+# 3-4장 실습과제3번
 
 ---
 
