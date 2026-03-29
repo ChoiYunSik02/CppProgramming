@@ -15,8 +15,8 @@ private:
 	int balance; // 잔액
 public:
 	Account(const char* name); // 이름 받는 생성자
-	void deposit(int money); // 잔액을 더하는 함수
-	int withdraw(int money); // 출금 후 실제 출금액 반환
+	void deposit(int money); // 입금 함수
+	int withdraw(int money); // 출금 함수
 	const char* getUser(); // 이름 반환
 	int inquiry(); // 잔액 반환 
 };
