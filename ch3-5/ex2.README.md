@@ -122,9 +122,5 @@ void setHeight(int b) { height = b; }
 ---
 
 ## 실행 결과
+<img width="820" height="169" alt="스크린샷 2026-03-29 153201" src="https://github.com/user-attachments/assets/91046778-7bbc-4876-b090-c1f1f08259c0" />
 
-```
-폭1, 높이1 인 삼각형 생성
-삼각형의 면적은 7.5
-폭3, 높이5 인 삼각형 소멸
-```
