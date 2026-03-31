@@ -103,10 +103,8 @@ cout << "삼각형의 면적은 " << p->getArea() << endl;
 ---
 
 ## 실행 결과
+<img width="825" height="135" alt="스크린샷 2026-03-31 153833" src="https://github.com/user-attachments/assets/5514d248-d53e-4657-aa30-3c18dde391ba" />
 
-```
-삼각형의 면적은 7.5
-```
 
 ---
 
