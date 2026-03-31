@@ -112,9 +112,5 @@ Triangle tri3(10, 2);    // 두 인자 생성자 호출 → width=10, height=2
 ---
 
 ## 실행 결과
+<img width="824" height="175" alt="스크린샷 2026-03-31 155336" src="https://github.com/user-attachments/assets/0c1bb3e2-32eb-4f06-9cf0-63d988a69938" />
 
-```
-삼각형의 면적은 0.5
-삼각형의 면적은 5
-삼각형의 면적은 10
-```
