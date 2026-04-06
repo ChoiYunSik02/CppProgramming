@@ -12,17 +12,17 @@
 
 - **객체 배열 동적 생성 및 초기화**
 ```cpp
-Triangle* arr = new Triangle[3]{ ... };
+Triangle* tri = new Triangle[3]{ ... };
 ```
 
 - **배열 형태 접근**
 ```cpp
-arr[i].getArea()
+tri[i].getArea()
 ```
 
 - **메모리 해제**
 ```cpp
-delete[] arr;
+delete[] tri;
 ```
 
 ## 결론
