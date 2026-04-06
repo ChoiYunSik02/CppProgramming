@@ -18,4 +18,8 @@ delete p;
 ## 결론
 동적 할당을 사용할 경우, 반드시 메모리 해제를 해야 하며, 그렇지 않으면 메모리 누수가 발생한다.
 
+
+## 수정 후 실행결과
+<img width="1110" height="358" alt="image" src="https://github.com/user-attachments/assets/627540e0-ca29-4e48-a08d-2eb87523e0a0" />
+
 <br>
