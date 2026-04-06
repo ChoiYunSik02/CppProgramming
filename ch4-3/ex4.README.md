@@ -1,8 +1,12 @@
 # ch04-3 실습과제 4번 소스코드 설명
 
+## 1. 프로그램 개요
+이 프로그램은 **C++ 클래스와 생성자, 소멸자, 동적 메모리 할당(new / delete[])**의 개념을 연습하기 위한 예제이다.  
+`Triangle` 클래스를 정의하고, 여러 개의 객체를 동적으로 생성하여 삼각형의 면적을 계산한 뒤 메모리를 해제한다.
+
 ---
 
-## 1. 헤더 파일 및 네임스페이스
+## 2. 헤더 파일 및 네임스페이스
 
 ```cpp
 #include <iostream>
@@ -17,7 +21,7 @@ using namespace std;
 
 ---
 
-## 2. Triangle 클래스 정의
+## 3. Triangle 클래스 정의
 
 ```cpp
 class Triangle {
@@ -30,7 +34,7 @@ class Triangle {
 
 ---
 
-## 3. 생성자(Constructor)
+## 4. 생성자(Constructor)
 
 ### 4.1 기본 생성자
 
@@ -46,7 +50,7 @@ Triangle() {
 
 ---
 
-### 3-1 매개변수 생성자
+### 4.2 매개변수 생성자
 
 ```cpp
 Triangle(int b, int h) {
@@ -62,7 +66,7 @@ Triangle(int b, int h) {
 
 ---
 
-## 4. 소멸자(Destructor)
+## 5. 소멸자(Destructor)
 
 ```cpp
 ~Triangle() {
@@ -76,7 +80,7 @@ Triangle(int b, int h) {
 
 ---
 
-## 5. 멤버 함수 getArea()
+## 6. 멤버 함수 getArea()
 
 ```cpp
 double getArea() {
@@ -90,9 +94,9 @@ double getArea() {
 
 ---
 
-## 6. main 함수
+## 7. main 함수
 
-### 6.1 삼각형 객체 배열의 동적 생성
+### 7.1 삼각형 객체 배열의 동적 생성
 
 ```cpp
 Triangle* tri = new Triangle[3]{
@@ -108,7 +112,7 @@ Triangle* tri = new Triangle[3]{
 
 ---
 
-### 6.2 삼각형 면적 출력
+### 7.2 삼각형 면적 출력
 
 ```cpp
 for (int i = 0; i < 3; i++) {
@@ -122,7 +126,7 @@ for (int i = 0; i < 3; i++) {
 
 ---
 
-### 6.3 동적 메모리 해제
+### 7.3 동적 메모리 해제
 
 ```cpp
 delete[] tri;
@@ -134,7 +138,8 @@ delete[] tri;
 
 ---
 
-## 7. 실행 결과
+
+## 8. 실행 결과
 <img width="1111" height="291" alt="스크린샷 2026-04-07 012320" src="https://github.com/user-attachments/assets/3b78fd51-5a06-43f9-8e58-f939976435ee" />
 
 
