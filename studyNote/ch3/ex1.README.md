@@ -1,7 +1,10 @@
-//
-// 제목: 3장 실습문제 1번
-//
+# C++ 프로그래밍 3장 실습문제 과제
 
+---
+
+## 💻 1번 문제 (Picture 클래스)
+
+```cpp
 #include <iostream>
 #include <cstring> // C언어 스타일 문자열 함수(strcpy 등)를 쓰기 위한 헤더입니다.
 using namespace std;
@@ -21,7 +24,7 @@ public:
 
 // [위임 생성자]
 // 매개변수 없이 Picture()가 호출되면, 아래에 있는 매개변수 3개짜리(타겟) 생성자에게
-// 5, 7, "모름"을 넘겨서 대신 초기화하라고 일을 맡깁니다.
+// 5, 7, "모름" (빈 문자열)을 넘겨서 대신 초기화하라고 일을 맡깁니다.
 Picture::Picture() : Picture(5, 7, "모름") { } 
 
 // [타겟 생성자 & 멤버 초기화 리스트]
@@ -39,3 +42,8 @@ int main() {
     cout << pic.getWidth() << "x" << pic.getHeight() << " " << pic.getPlace() << endl;
     cout << mt.getWidth() << "x" << mt.getHeight() << " " << mt.getPlace() << endl;
 }
+
+---
+
+## 실행결과
+<img width="891" height="151" alt="image" src="https://github.com/user-attachments/assets/8719ca29-4d1b-44e1-839c-86648eb944c2" />
