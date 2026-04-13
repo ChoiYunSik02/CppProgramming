@@ -1,7 +1,10 @@
-//
-// 제목: 3장 실습문제 2번
-//
+---
+ 
+# 3장 실습문제 2번 - 커피 클래스
+ 
+---
 
+```cpp
 #include <iostream>
 using namespace std;
 
@@ -35,6 +38,8 @@ int main() {
     espresso.show(); cout << endl; // 에스프레소 상태 출력
     mySweet.show();                // 마이스윗 커피 상태 출력
 }
+```
+
 
 ## 실행결과
 <img width="899" height="164" alt="image" src="https://github.com/user-attachments/assets/e74b642d-3408-4713-8665-92983a5f11b6" />
