@@ -1,4 +1,4 @@
-## 실습과제2 - Uppercase() 함수
+## ch5-3 실습과제2 - Uppercase() 함수
 
 ---
 
